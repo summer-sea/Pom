@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jctest-common" />
+        <module name="jctest-manager-mapper" />
+        <module name="jctest-manager-pojo" />
+        <module name="jctest-manager-service" />
+        <module name="jctest-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jctest-common" target="1.7" />
+      <module name="jctest-manager" target="1.7" />
+      <module name="jctest-manager-mapper" target="1.7" />
+      <module name="jctest-manager-pojo" target="1.7" />
+      <module name="jctest-manager-service" target="1.7" />
+      <module name="jctest-manager-web" target="1.7" />
+      <module name="jctest-parent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
